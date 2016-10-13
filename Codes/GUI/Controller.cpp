@@ -83,5 +83,7 @@ void CController::set_val(string S, double val)
 	if (tolower(S) == "ki") params[1] = val;
 	if (tolower(S) == "kd") params[2] = val;
 	if (tolower(S) == "set_point") params[3] = val;
+	if (tolower(S) == "min_value") min_val = val;
+	if (tolower(S) == "max_value") max_val = val;
 
 }

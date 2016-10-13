@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'reactiontablemodel.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.5.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.6.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'reactiontablemodel.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.5.0. It"
+#error "This file was generated using the moc from 5.6.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -83,12 +83,14 @@ void ReactionTableModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
             typedef void (ReactionTableModel::*_t)(const QString & );
             if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&ReactionTableModel::invalidExpressoinDetected)) {
                 *result = 0;
+                return;
             }
         }
         {
             typedef void (ReactionTableModel::*_t)(const QModelIndex & , const QString & );
             if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&ReactionTableModel::wrongSymbolDetected)) {
                 *result = 1;
+                return;
             }
         }
     }
