@@ -3,6 +3,8 @@
 #include "StringOP.h"
 // comment 1
 
+//This is the controller class
+
 class CController
 {
 public:
