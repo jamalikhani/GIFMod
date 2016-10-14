@@ -1,5 +1,6 @@
 #pragma once
 #include "Sensor.h"
+#include "StringOP.h"
 
 class CController
 {
