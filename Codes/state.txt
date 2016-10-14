@@ -15,3 +15,9 @@ fixed_status-1=0
 fixed_status-2=0
 fixed_status-3=0
 fixed_status-4=0
+fixed_status-0=0
+fixed_status-1=0
+fixed_status-2=0
+fixed_status-3=0
+fixed_status-4=0
+
